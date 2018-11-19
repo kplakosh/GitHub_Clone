@@ -13,7 +13,8 @@ body {
     position: fixed;
     top: 0;
     padding: 16px 0;
-    background-color: #212222;
+    background-color: #24292e;
+    color: hsla(0, 0%, 100%, .75);
 }
 
 .header-menu {
@@ -23,7 +24,7 @@ body {
     padding: 0 40px;
     align-items: center;
     justify-content: space-between;
-    color: whitesmoke;
+    color: #fff;
 }
 
 .gitCat {
@@ -31,12 +32,50 @@ body {
     margin: 0;
     height: 32px;
     width: 32px;
-    border: 1px solid white;
+    border: none;
+}
+
+.octicon {
+    height: 32px;
+    width: 32px;
+}
+
+.search {
+    height: 20px;
+    width: 240px;
+    background-color: hsla(0,0%,100%,.125);;
+    outline: none;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 3px;
 }
 
 .signIn,
 .signUp {
     height: 32px;
+    width: 73px;
+    padding: 4px 8px;
+    font-size: 15px !important;
+    background-color: transparent;
+    color: #fff;
+}
+
+.signIn {
+    border: none;
+}
+
+.signUp {
+    border: 1px solid rgb(209, 213, 218);
+    border-radius: 3px;
+}
+
+
+.jumbotron {
+    height: 816px;
+    background: url(https://2600index.info/Links/35/2/assets-cdn.github.com/images/modules/site/heroes/simple-codelines.svg) no-repeat;
+
 }
 
 @media (min-width: 1012px) {
@@ -50,5 +89,9 @@ body {
         padding: 0 16px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .jumbotron {
+        height: 600px;
     }
 }
