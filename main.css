@@ -121,7 +121,7 @@ body {
     margin-top: 67px;
     padding-top: 64px!important;
     height: 556px;
-    background: url(https://2600index.info/Links/35/2/assets-cdn.github.com/images/modules/site/heroes/simple-codelines.svg) no-repeat, #2b3137;
+    background: url(https://2600index.info/Links/35/2/assets-cdn.github.com/images/modules/site/heroes/simple-codelines.svg) center/cover no-repeat border-box, #2b3137;
     color: hsla(0,0%,100%,.6);
 }
 
