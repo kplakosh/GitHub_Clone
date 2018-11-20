@@ -71,11 +71,60 @@ body {
     border-radius: 3px;
 }
 
-
 .jumbotron {
-    height: 816px;
-    background: url(https://2600index.info/Links/35/2/assets-cdn.github.com/images/modules/site/heroes/simple-codelines.svg) no-repeat;
+    margin-top: 67px;
+    padding-top: 64px!important;
+    height: 556px;
+    background: url(https://2600index.info/Links/35/2/assets-cdn.github.com/images/modules/site/heroes/simple-codelines.svg) no-repeat, #2b3137;
+    color: hsla(0,0%,100%,.6);
+}
 
+.container {
+    min-height: 476px;
+    max-height:  670px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.info {
+    height: auto;
+    width: 60%;
+    padding-right: 24px;
+    vertical-align: middle;
+    /* align-content: center; */
+    /* align-items: center; */
+}
+
+.info h1 {
+    font-size: 64px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.hightlight {
+    color: #fff;
+}
+
+.hightlight:hover {
+    font-style: underline;
+}
+
+.formContainer {
+    width: 40%;
+    height: 100%;
+    padding-left: 24px;
+    background-color: #fafbfc;
+    color: #586069;
+    border: none;
+}
+
+@madia (min-width 500px) {
+    .jumbotron {
+        height: 749px;
+    }
 }
 
 @media (min-width: 1012px) {
@@ -91,7 +140,9 @@ body {
         margin-right: auto;
     }
 
-    .jumbotron {
-        height: 600px;
+    .container {
+        max-width: 980px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
