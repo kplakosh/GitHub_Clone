@@ -15,12 +15,12 @@ body {
     padding: 16px 0;
     background-color: #24292e;
     color: hsla(0, 0%, 100%, .75);
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-menu {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
     padding: 0 40px;
     align-items: center;
     justify-content: space-between;
@@ -31,6 +31,7 @@ body {
     align-content: start;
     margin: 0;
     height: 32px;
+    padding: 0 40px;
     width: 32px;
     border: none;
 }
@@ -40,7 +41,28 @@ body {
     width: 32px;
 }
 
+.whyGitHub {
+    display: none;
+}
+
+.business {
+    display: none;
+}
+
+.explore {
+    display: none;
+}
+
+.marketplace {
+    display: none;
+}
+
+.pricing {
+    display: none;
+}
+
 .search {
+    display: none;
     height: 20px;
     width: 240px;
     background-color: hsla(0,0%,100%,.125);;
@@ -63,12 +85,36 @@ body {
 }
 
 .signIn {
+    display: none;
     border: none;
 }
 
 .signUp {
     border: 1px solid rgb(209, 213, 218);
     border-radius: 3px;
+}
+
+.toggle-button {
+    width: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+    margin-left: 25px; 
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button__bar {
+    width: 100%;
+    height: 0.2rem;
+    background: #fff;
+    display: block;
+    margin: 0.2rem 0;
 }
 
 .jumbotron {
@@ -82,17 +128,20 @@ body {
 .container {
     min-height: 476px;
     max-height:  670px;
+    min-width: 767px;
     padding: 0 40px;
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* flex-flow: row wrap; */
 }
 
 .info {
     height: auto;
-    width: 60%;
+    width: 50%;
     padding-right: 24px;
     vertical-align: middle;
+    margin: 0;
+    
     /* align-content: center; */
     /* align-items: center; */
 }
@@ -102,6 +151,14 @@ body {
     color: #fff;
     margin: 0;
     margin-bottom: 16px;
+    font-weight: 300;
+}
+
+.info p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: justify;
 }
 
 .hightlight {
