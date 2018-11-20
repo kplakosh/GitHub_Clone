@@ -1,10 +1,11 @@
 html {
-    height: 100%;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
 body {
     margin: 0;
+
 }
 
 .header {
@@ -20,7 +21,7 @@ body {
 
 .header-menu {
     display: flex;
-    padding: 0 40px;
+    padding: 0 16px;
     align-items: center;
     justify-content: space-between;
     color: #fff;
@@ -30,7 +31,7 @@ body {
     align-content: start;
     margin: 0;
     height: 32px;
-    padding: 0 40px;
+    padding: 0 16px;
     width: 32px;
     border: none;
 }
@@ -118,21 +119,18 @@ body {
 
 .jumbotron {
     padding: 40px 0 !important;
-    /* height: 500px; */
     background: url(https://2600index.info/Links/35/2/assets-cdn.github.com/images/modules/site/heroes/simple-codelines.svg) center/cover no-repeat border-box, #2b3137;
     color: hsla(0,0%,100%,.6);
 }
 
 .container {
-    /* min-height: 476px; */
     max-height:  670px;
-    padding: 0 40px;
+    padding: 0 16px;
 }
 
 .info {
     height: auto;
     width: 100%;
-    padding-right: 24px;
     vertical-align: middle;
     margin: 0;
 }
@@ -225,7 +223,68 @@ label {
     margin-right: auto;
 }
 
+.tryGitHubConteiner {
+    padding: 0 16px;
+}
+
+.tryGitHub {
+    padding: 40px;
+    text-align: center;
+}
+
+.tryGitHub h1 {
+    font-size: 29px;
+    font-weight: 300;
+    line-height: 39px;
+    margin: 0;
+    color: #24292e;
+}
+
+.tryGitHub p {
+    margin: 0;
+    line-height: 24px;
+    color: #586069;
+    margin-bottom: 16px;
+}
+
+#pricingLink {
+    color: #1277eb;
+    text-decoration: none;
+    box-shadow: 0 1px 0 0 #1277eb80;
+    transition: .2s;
+}
+
+#pricingLink:hover {
+    box-shadow: 0 1px 0 0 #1277eb;
+}
+
+.contactSales,
+.startTrial {
+    width: 351px;
+    height: 51px;
+    text-align: center;
+    padding: 16px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.contactSales {
+    margin-bottom: 8px;
+    background-color: #1277eb;
+    color: #fff;
+}
+
+.startTrial {
+    background-color: hsla(0,0%,100%,0)!important;
+    border: 1px solid #1277eb;
+    color: #1277eb;
+}
+
 @media (min-width: 767px) {
+    
     .info h1 {
         font-size: 64px;
     }
@@ -241,9 +300,16 @@ label {
     .header-menu {
         max-width: 980px;
         height: 100%;
-        padding: 0 16px;
+        padding: 0 40px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .gitCat {
+        align-content: start;
+        margin: 0;
+        height: 32px;
+        padding: 0 16px;
     }
 
     .jumbotron {
