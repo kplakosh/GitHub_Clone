@@ -302,12 +302,12 @@ label {
 }
 
 .businessesContainer {
-    height: 324px;
+    /* height: 324px; */
     padding: 0 16px;
 }
 
 .businessInfo {
-    height: 100%;
+    /* height: 100%; */
     padding: 48px 0;
     color: #6a737d;
     overflow-wrap: break-word;
@@ -334,6 +334,61 @@ label {
     margin: 10px;
     height: 20px;
     padding: 0 8px;
+}
+
+.forTeams {
+    padding: 48px 0; 
+}
+
+.sectionTitle {
+    margin: 0;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    color: #586069;
+    font-size: 16px;
+}
+
+.forTeamsSignupContainer {
+    padding: 0 16px 40px 16px;
+    text-align: center;
+
+}
+
+.forTeamsSignupContainer h1 {
+    margin: 16px 0 8px 0;
+    font-size: 40px;
+    font-weight: 500;
+    color: #24292e;
+}
+
+.forTeamsSignupContainer p {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #586069;
+}
+
+.joinGitHub {
+    background-color: hsla(0,0%,100%,0);
+    color: #1277eb!important;
+    height: 64px;
+    width: 222px;
+    padding: 20px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px rgba(18,119,235,.5);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.joinGitHub:hover {
+    box-shadow: inset 0 0 0 1px #1277eb;
+    color: #0366d6!important;
+    text-decoration: none;
 }
 
 @media (min-width: 767px) {
