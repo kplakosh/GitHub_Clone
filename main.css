@@ -396,6 +396,10 @@ label {
     text-decoration: none;
 }
 
+.for-business:hover .bump-link-symbol {
+    transform: translateX(3px);
+}
+
 .bump-link-symbol {
     display: inline-block;
     transform: translateX(0);
@@ -513,9 +517,16 @@ label {
 
 .float-right a {
     color:  #0366d6;
+    /* width: ; */
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
+    transform: translateX(0);
+    transition: .2s;
+}
+
+.float-right a:hover .bump-link-symbol {
+    transform: translateX(3px);
 }
 
 @media (min-width: 767px) {
