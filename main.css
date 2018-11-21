@@ -336,7 +336,8 @@ label {
     padding: 0 8px;
 }
 
-.forTeams {
+.forTeams,
+.sa-container {
     padding: 48px 0; 
 }
 
@@ -345,34 +346,37 @@ label {
     text-align: center;
     font-family: 'Inconsolata', monospace;
     color: #586069;
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
-.forTeamsSignupContainer {
+.forTeamsSignupContainer,
+.sa-container {
     padding: 0 16px 40px 16px;
     text-align: center;
-
 }
 
-.forTeamsSignupContainer h1 {
+.forTeamsSignupContainer h1,
+.sa-container h1 {
     margin: 16px 0 8px 0;
     font-size: 40px;
     font-weight: 500;
     color: #24292e;
 }
 
-.forTeamsSignupContainer p {
+.forTeamsSignupContainer p,
+.sa-container p {
     font-size: 21px;
     font-weight: 400;
     line-height: 31px;
     color: #586069;
 }
 
-.joinGitHub {
+.joinGitHub,
+.for-business {
     background-color: hsla(0,0%,100%,0);
     color: #1277eb!important;
     height: 64px;
-    width: 222px;
+    width: auto;
     padding: 20px 32px;
     margin-left: auto;
     margin-right: auto;
@@ -385,7 +389,8 @@ label {
     vertical-align: middle;
 }
 
-.joinGitHub:hover {
+.joinGitHub:hover,
+.for-business:hover {
     box-shadow: inset 0 0 0 1px #1277eb;
     color: #0366d6!important;
     text-decoration: none;
@@ -405,16 +410,20 @@ label {
     padding: 0 16px;
 }
 
-.betterTeamContent {
+.largeContainer {
     padding-top: 40px;
 }
 
-.hubot {
+.img-box {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-style: none;
-    width: 83.33333%;;
+    width: 83.33333%;
+}
+
+.img-box img {
+    width: 100%;
 }
 
 .summary a {
@@ -430,9 +439,23 @@ label {
     overflow-wrap: break-word;
 }
 
-.summary a h3 {
+.summary a h3,
+.summary h3 {
     font-size: 18px;
     font-weight: 300;
+    text-align: left;
+    color: #24292e;
+}
+
+.summary p {
+    /* display: flex; */
+    font-size: 14px;
+    font-weight: 300;
+    color: #586069;
+    margin: 24px 0;
+    line-height: 21px;
+    text-align: left;
+    overflow-wrap: break-word;
 }
 
 .link-bt {
@@ -445,6 +468,8 @@ label {
     box-shadow: 0 1px 0 0 #1277eb;
     color: #0366d6;
 }
+
+
 
 @media (min-width: 767px) {
     
