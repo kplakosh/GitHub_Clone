@@ -391,6 +391,17 @@ label {
     text-decoration: none;
 }
 
+.bump-link-symbol {
+    display: inline-block;
+    transform: translateX(0);
+    transition: .2s;
+}
+
+.joinGitHub:hover .bump-link-symbol {
+    transform: translateX(3px);
+}
+
+
 @media (min-width: 767px) {
     
     .info h1 {
