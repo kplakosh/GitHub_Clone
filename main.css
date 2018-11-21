@@ -5,7 +5,7 @@ html {
 
 body {
     margin: 0;
-
+    color: #24292e;
 }
 
 button:hover {
@@ -337,7 +337,7 @@ label {
 }
 
 .forTeams,
-.sa-container {
+.sa {
     padding: 48px 0; 
 }
 
@@ -406,7 +406,8 @@ label {
     transform: translateX(3px);
 }
 
-.betterTeam {
+.betterTeam,
+.host {
     padding: 0 16px;
 }
 
@@ -469,7 +470,53 @@ label {
     color: #0366d6;
 }
 
+.host-box {
+    display: flex;
+    /* position: relative; */
+    background-color: #fff;
+    border: 1px solid #e1e4e8 !important;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+
+.float-left {
+    display: block;
+    width: 64px;
+    margin-right: 24px;
+    float: left;
+}
+
+.float-right {
+    display: block;
+    line-height: 1.5rem;
+    width: calc(100% - 88px);
+}
+
+.float-right h4 + p {
+    margin: 0 8px 10px 0;
+}
+
+.float-right h4 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+.float-right p {
+    color: #586069;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.float-right a {
+    color:  #0366d6;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
 
 @media (min-width: 767px) {
     
