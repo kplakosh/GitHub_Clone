@@ -336,7 +336,8 @@ label {
 
 .forTeams,
 .sa,
-.integrations {
+.integrations,
+.community {
     padding: 48px 0; 
 }
 
@@ -350,7 +351,8 @@ label {
 
 .forTeamsSignupContainer,
 .sa-container,
-.integrationsContainer {
+.integrationsContainer,
+.communityContainer {
     padding: 0 16px 40px 16px;
     text-align: center;
 }
@@ -362,7 +364,8 @@ label {
 
 .forTeamsSignupContainer h1,
 .sa-container h1,
-.integrationsContainer h1 {
+.integrationsContainer h1,
+.communityContainer h1 {
     margin: 16px 0 8px 0;
     font-size: 42px;
     font-weight: 400;
@@ -371,7 +374,8 @@ label {
 
 .forTeamsSignupContainer p,
 .sa-container p,
-.integrationsContainer p {
+.integrationsContainer p,
+.communityContainer p {
     font-size: 21px;
     font-weight: 400;
     line-height: 31px;
