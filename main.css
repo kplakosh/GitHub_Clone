@@ -302,12 +302,10 @@ label {
 }
 
 .businessesContainer {
-    /* height: 324px; */
     padding: 0 16px;
 }
 
 .businessInfo {
-    /* height: 100%; */
     padding: 48px 0;
     color: #6a737d;
     overflow-wrap: break-word;
@@ -357,11 +355,16 @@ label {
     text-align: center;
 }
 
+.sa-container {
+    padding-bottom: 0;
+    text-align: left;
+}
+
 .forTeamsSignupContainer h1,
 .sa-container h1,
 .integrationsContainer h1 {
     margin: 16px 0 8px 0;
-    font-size: 44px;
+    font-size: 42px;
     font-weight: 400;
     color: #24292e;
 }
@@ -373,11 +376,9 @@ label {
     font-weight: 400;
     line-height: 31px;
     color: #586069;
+    margin-top: 0;
+    margin-bottom: 24px;
 }
-
-/* .integrationsContainer p {
-    line-height: 31px;
-} */
 
 .joinGitHub,
 .for-business,
@@ -463,11 +464,10 @@ label {
 }
 
 .summary p {
-    /* display: flex; */
     font-size: 14px;
     font-weight: 300;
     color: #24292e;
-    margin: 0;
+    margin: 0 0 16px 0;
     line-height: 21px;
     text-align: left;
     overflow-wrap: break-word;
@@ -486,7 +486,6 @@ label {
 
 .host-box {
     display: flex;
-    /* position: relative; */
     background-color: #fff;
     border: 1px solid #e1e4e8 !important;
     padding: 24px;
@@ -532,6 +531,10 @@ label {
     text-decoration: none;
     transform: translateX(0);
     transition: .2s;
+}
+
+.btn-integrations {
+    margin-bottom: 40px;
 }
 
 .circled-logos {
