@@ -590,6 +590,22 @@ label {
     background-color: #303030;
 }
 
+.more-tools p {
+    color:#586069;
+    margin: 8px 0;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.more-tools p+p {
+    margin-bottom: 10px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    color: #0366d6;
+    font-size: 16px;
+}
+
 @media (min-width: 544px) {
     
     .info h1 {
