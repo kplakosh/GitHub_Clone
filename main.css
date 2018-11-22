@@ -6,6 +6,7 @@ html {
 body {
     margin: 0;
     color: #24292e;
+    background-color: #fff;
 }
 
 button:hover {
@@ -631,25 +632,48 @@ article {
     display: block;
     width: 50%;
     padding: 8px;
-    min-width: 280px;
+    /* min-width: 280px; */
+    box-shadow: 0 10px 50px rgba(27,31,35,.07)!important;
 }
 
 .story {
-    min-width: 280px;
+    width: 264px;
 }
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.card {
+    display: inline-block;
+  }
 
 .story-link {
     display: block;
     cursor: pointer;
-    height: 100%;
-    border-radius: 3px;
+    width: 264px;
+    background-color: initial;
+        padding: 8px;
+
+    /*  */
+    /* border-radius: 3px; */
     transition: transform .3s;
 }
 
+/* .story-img-box {
+    position: absolute;
+    
+    overflow: hidden;
+
+} */
+
 .story-img {
     border: none;
-    position: absolute;
-    /* height: 100%; */
+    position: relative;
+    height: 264px;
+    width: 264px;
 }
 
 @media (min-width: 544px) {
