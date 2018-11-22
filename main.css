@@ -459,14 +459,15 @@ label {
     font-weight: 300;
     text-align: left;
     color: #24292e;
+    margin: 0 0 4px 0;
 }
 
 .summary p {
     /* display: flex; */
     font-size: 14px;
     font-weight: 300;
-    color: #586069;
-    margin: 24px 0;
+    color: #24292e;
+    margin: 0;
     line-height: 21px;
     text-align: left;
     overflow-wrap: break-word;
@@ -526,12 +527,64 @@ label {
 
 .float-right a {
     color:  #0366d6;
-    /* width: ; */
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
     transform: translateX(0);
     transition: .2s;
+}
+
+.circled-logos {
+    display: flex !important;
+    flex-flow: wrap;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.circled-logo {
+    width: 96px;
+    height: 96px;
+    display: flex;
+    border-radius: 50%;
+    margin: 16px;
+    align-items: center; 
+    justify-content: center;
+    box-shadow: 0 1px 5px rgba(27,31,35,.15);
+}
+
+.circled-logo img { 
+    height: auto!important;
+    max-height: 55%!important;
+    max-width: 60%!important;
+}
+
+.icon-slack {
+    background-color: #553958;
+}
+
+.icon-zenhub {
+    background-color: #364e98;
+}
+
+.icon-travisCI {
+    background-color: #eff9f9;
+}
+
+.icon-atom {
+    background-color: #5fb57d;
+}
+
+.icon-circleCI {
+    background-color: #022531;
+}
+
+.icon-google {
+    background-color: #f2f2f2;
+}
+
+.icon-codeClimate {
+    display: none;
+    background-color: #303030;
 }
 
 @media (min-width: 544px) {
