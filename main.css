@@ -362,6 +362,10 @@ label {
     text-align: left;
 }
 
+.integrationsContainer {
+    padding-bottom: 0;
+}
+
 .forTeamsSignupContainer h1,
 .sa-container h1,
 .integrationsContainer h1,
@@ -612,6 +616,40 @@ label {
 
 .more-tools p > a:hover .bump-link-symbol {
     transform: translateX(3px);
+}
+
+.stories {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    margin: 40px 0;
+    padding: 40px 8px;
+    line-height: 24px;
+}
+
+article {
+    display: block;
+    width: 50%;
+    padding: 8px;
+    min-width: 280px;
+}
+
+.story {
+    min-width: 280px;
+}
+
+.story-link {
+    display: block;
+    cursor: pointer;
+    height: 100%;
+    border-radius: 3px;
+    transition: transform .3s;
+}
+
+.story-img {
+    border: none;
+    position: absolute;
+    /* height: 100%; */
 }
 
 @media (min-width: 544px) {
