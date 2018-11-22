@@ -416,7 +416,7 @@ label {
 .joinGitHub:hover .bump-link-symbol,
 .float-right a:hover .bump-link-symbol,
 .for-business:hover .bump-link-symbol,
-.integrations-img .bump-link-symbol {
+.integrations-img:hover .bump-link-symbol {
     transform: translateX(3px);
 }
 
@@ -604,6 +604,10 @@ label {
     margin-right: auto!important;
     color: #0366d6;
     font-size: 16px;
+}
+
+.more-tools p > a:hover .bump-link-symbol {
+    transform: translateX(3px);
 }
 
 @media (min-width: 544px) {
