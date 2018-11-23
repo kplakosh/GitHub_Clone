@@ -645,7 +645,9 @@ label {
     margin: 40px 0;
     padding: 40px 8px;
     line-height: 24px;
-    height: 448px;
+    height: 368px;
+    max-height: 448px;
+    border-radius: 3px;
 }
 
 article {
@@ -654,7 +656,6 @@ article {
 
 .story {
     display: block;
-    min-width: 280px;
     margin: 8px;
     overflow-wrap: break-word; 
 }
@@ -668,9 +669,18 @@ article {
 .story-link {
     display: block;
     cursor: pointer;
+    position: relative;
     width: 264px;
     margin: 0;
     background-color: initial;
+    text-decoration: none;
+}
+
+.story-img-box:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+    transition: padding-bottom .3s;
 }
 
 .story-img {
@@ -681,17 +691,28 @@ article {
 }
 
 .text-items {
+    width: 232px;
     padding: 16px;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     margin: 0;
 }
 
 .story-title {
     transition: color .3s;
+    margin: 0 0 4px 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22.5px;
+    color: #24292e;
+    
 }
 
-.story-title p {
+.story-title + p {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    line-height: 18px;
+    color: #586069;
     font-family: 'Inconsolata', monospace;
 }
 
