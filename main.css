@@ -898,6 +898,58 @@ article {
     margin-bottom: 0;
 }
 
+/* Footer */
+
+.footer {
+    margin-top: 40px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px 16px;
+    margin-bottom: 32px;
+}
+
+.footer-gihub-sign {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.octicon-logo-github {
+    height: 100%;
+}
+
+.column {
+    display: block;
+    padding-right: 16px;
+    margin-bottom: 40px;
+    color: #6a737d;
+    line-height: 24px;
+    width: calc(50% - 16px);
+}
+
+.column h4 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column ul > li {
+    margin-bottom: 16px;
+    line-height: 17.5px;
+    font-size: 14px;
+    color: #586069;
+}
 
 /* Tablet size */
 
