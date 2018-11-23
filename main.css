@@ -204,7 +204,7 @@ label {
 }
 
 .formContainer p > a {
-    color: #0366d6;
+    color: #fff;
 }
 
 .button {
@@ -339,7 +339,8 @@ label {
 .forTeams,
 .sa,
 .integrations,
-.community {
+.community,
+.form {
     padding: 48px 0; 
 }
 
@@ -753,7 +754,6 @@ article {
     text-decoration: none;
     transform: scale(1.05);
     transition: transform .3s;
-
 }
 
 .orange-circle {
@@ -859,6 +859,47 @@ article {
 .octicon-triangle-right-purple {
     fill: #6f42c1;
 }
+
+.text-gray {
+    line-height: 18px;
+    font-size: 12px;
+    margin-top: 40px;
+    color: #6a737d;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Bottom Form */
+
+.form-intro {
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    padding: 0 16px;
+}
+
+.form-bottom {
+    display: block;
+    padding: 40px 16px;
+}
+
+.form-bottom div {
+    padding: 0 16px;
+}
+
+.form-bottom input,
+.form-bottom button {
+    margin-bottom: 16px;
+}
+
+.form-bottom p {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+
+/* Tablet size */
 
 @media (min-width: 544px) {
     
