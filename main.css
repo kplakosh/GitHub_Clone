@@ -613,10 +613,28 @@ label {
     margin-right: auto!important;
     color: #0366d6;
     font-size: 16px;
+    margin-top: 0px;
 }
 
 .more-tools p > a:hover .bump-link-symbol {
     transform: translateX(3px);
+}
+
+.communityContainer {
+    padding-bottom: 0px;
+}
+
+.communityContainer .sectionTitle {
+    margin: 0;
+}
+
+.sectionTitle-community h1 {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.sectionTitle-community p {
+    margin-bottom: 10px;
 }
 
 .stories {
@@ -653,7 +671,6 @@ article {
     width: 264px;
     margin: 0;
     background-color: initial;
-
 }
 
 .story-img {
